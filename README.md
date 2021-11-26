@@ -6,7 +6,7 @@ Bridge é um padrão de projeto de software, usado para eliminar múltiplas hera
 
 Estrutura de como vai ser feito o exemplo:
 
-![image-20211126100129923](C:\Users\thiago.belordi\AppData\Roaming\Typora\typora-user-images\image-20211126100129923.png)
+![DiagrmaProjeto](https://github.com/thiagoslovak/Secretaria-Bridge/blob/master/2021-11-26_09h57_37.png)
 
 Nesta estrutura veja que temos uma classe TSecretaria , duas Interface IComunica e IPessoa, e as classes em comum com as Interfaces. Separado IComunicacao: TWhatsApp, TSMS e TEmail, se precisar adicionar mais um tipo de comunicação é só implementar mais uma classe.
 
@@ -18,4 +18,4 @@ Neste exemplo foi feito uma secretaria que faz o envio de mensagens, dando as op
 
 
 
-![image-20211126100051713](C:\Users\thiago.belordi\AppData\Roaming\Typora\typora-user-images\image-20211126100051713.png)
+![Exemplo](https://github.com/thiagoslovak/Secretaria-Bridge/blob/master/2021-11-26_10h00_08.png)
