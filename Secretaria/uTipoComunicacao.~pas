@@ -1,0 +1,18 @@
+unit uTipoComunicacao;
+
+interface
+
+type
+  TTipoComunicacao = (
+    tcEmail = 1,
+    tcSMS = 2,
+    tcWhatsWapp = 3
+  );
+
+implementation
+
+end.
+
+
+
+
